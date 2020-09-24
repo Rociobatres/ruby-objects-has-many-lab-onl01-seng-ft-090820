@@ -12,7 +12,7 @@ def songs
 end   
 
 def add_song_by_name(name)
-  song = Song.new(name)
+  song = Song.new(name) #to create a song, the initialize arguement should match?
   add_song(song)
 end 
 
