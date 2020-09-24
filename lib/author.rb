@@ -20,7 +20,7 @@ def posts
 end 
 
 def post_count
-  self.post.all.size    
+  post.all.size    
 end   
 
 end 
