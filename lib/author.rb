@@ -16,7 +16,7 @@ def add_post(post)
 end 
 
 def posts 
-  post.all.select {|post| posts << post.author == author} 
+  Post.all.select {|post| post.author == author} 
 end 
 
 def post_count
